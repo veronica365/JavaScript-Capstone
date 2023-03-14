@@ -1,4 +1,4 @@
-export const initialize = () => {
-  return "Hello world";
-};
+import './css/style.css';
+import initialize from './modules/paint-app.js';
+
 initialize();
