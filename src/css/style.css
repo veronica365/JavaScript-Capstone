@@ -44,3 +44,17 @@ header nav ul li {
   font-size: 20px;
   padding: 5px 30px;
 }
+
+footer {
+  border: 2px solid black;
+  padding-left: 1%;
+  padding-right: 1%;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.footnote {
+  font-size: 12px;
+  text-align: center;
+}
