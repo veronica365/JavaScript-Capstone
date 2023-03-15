@@ -8,8 +8,6 @@ const addHeader = () => `
             </ul>
         </nav>`;
 
-
-
 const initialize = () => {
   document.querySelector('header').innerHTML = addHeader();
 };
