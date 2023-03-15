@@ -9,7 +9,7 @@ const renderTvCards = (data) => {
  </div>
  <div class="tvarticle">
      <p class="like">2 likes</p>
- <button class="comment">Comment</button>
+ <button id="${data.id}" class="comment">Comment</button>
  </div>
       `;
   tvContainer.append(scoreDetails);

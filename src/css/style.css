@@ -114,3 +114,57 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+.comment-modal {
+  width: 100vw;
+  height: 100vh;
+}
+
+button.close {
+  top: 10px;
+  right: 10px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  position: sticky;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.show-img {
+  max-width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.show-img img {
+  width: 100%;
+  height: auto;
+}
+
+.article h3 {
+  font-size: 40px;
+}
+
+.article .caption {
+  display: flex;
+  width: 50vw;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.article .caption span {
+  display: block;
+  width: 50%;
+  font-size: 20px;
+}
