@@ -20,7 +20,7 @@ const commentPop = (show) => `<dialog class="comment-modal">
                 </div>
                 <div>
                     <h4>Comments</h4>
-                    <div class="comments"></div>
+                    <div class="comments">Comments added shall appear here</div>
                 </div>
                 <form>
                     <h4>Add a comment</h4>

@@ -8,7 +8,10 @@ const renderTvCards = async (data) => {
   const like = await getLike();
   if (like[data.id - 1].likes === undefined) {
     like[data.id - 1].likes = '0 Likes';
-  } else if (like[data.id - 1].likes === '0' || like[data.id - 1].likes === '1') {
+  } else if (
+    like[data.id - 1].likes === '0'
+    || like[data.id - 1].likes === '1'
+  ) {
     like[data.id - 1].likes = `${like[data.id - 1].likes} Like`;
   } else {
     like[data.id - 1].likes = `${like[data.id - 1].likes} Likes`;
@@ -46,7 +49,7 @@ const renderTvCards = async (data) => {
     const dialog = document.querySelector('.comment-modal');
     dialog.showModal();
     const comments = await getComments(data.id);
-    if (comments.length)renderUserComment(comments);
+    renderUserComment(comments);
     const form = document.querySelector('.comment-modal form');
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
@@ -54,7 +57,7 @@ const renderTvCards = async (data) => {
       const comment = event.target.elements.comment.value;
       await postComment({ item_id: `${data.id}`, username, comment });
       const comments = await getComments(data.id);
-      if (comments.length) renderUserComment(comments);
+      renderUserComment(comments);
       event.target.elements.username.value = '';
       event.target.elements.comment.value = '';
     });

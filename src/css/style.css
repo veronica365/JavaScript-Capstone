@@ -177,9 +177,12 @@ button.close {
   background-color: #fff;
 }
 
+.article .comments {
+  margin: 40px 0;
+}
+
 .article .comments .comment-item {
   display: block;
-  margin-top: 20px;
 }
 
 .article .comments .comment-item .username {

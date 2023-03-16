@@ -1,5 +1,10 @@
-const renderUserComment = (comments = []) => {
+const renderUserComment = (comments) => {
   const wrapper = document.querySelector('.article .comments');
+  if (!comments.length) {
+    wrapper.innerHTML = 'No comments have been added';
+    return wrapper;
+  }
+  wrapper.innerHTML = '';
   comments.forEach((comment) => {
     wrapper.innerHTML += `
       <div class="comment-item">
@@ -8,5 +13,6 @@ const renderUserComment = (comments = []) => {
         <span>${comment.comment}</span>
       </div>`;
   });
+  return wrapper;
 };
 export default renderUserComment;
