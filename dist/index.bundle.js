@@ -664,7 +664,6 @@ const renderTvCards = async (data) => {
     const updateLike = await getLike();
 
     const newLike = document.getElementById(`${data.id}s`);
-    console.log(updateLike);
     newLike.innerHTML = `${updateLike[data.id - 1].likes}  likes`;
   };
 
