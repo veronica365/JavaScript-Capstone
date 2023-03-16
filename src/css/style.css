@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 0 auto;
+  padding-top: 13px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav .logo {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+header nav ul li {
+  font-size: 20px;
+  padding: 5px 30px;
+}
+
+footer {
+  border: 2px solid black;
+  padding-left: 1%;
+  padding-right: 1%;
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+}
+
+.footnote {
+  font-size: 12px;
+  text-align: center;
+}
+
+.tvshows {
+  justify-content: space-between;
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tvimage {
+  width: 20vw;
+}
+
+.tvtitles {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+}
+
+.likebtn {
+  border: none;
+  background-color: transparent;
+}
+
+#love {
+  font-size: 2vw;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 3vh;
+}
+
+.tvcard {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.like {
+  align-self: flex-end;
+  margin: 0;
+}
+
+.comment {
+  width: 40%;
+  height: 5vh;
+  align-self: center;
+}
+
+.tvarticle {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-modal {
+  width: 100vw;
+  height: 100vh;
+}
+
+button.close {
+  top: 10px;
+  right: 10px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  position: sticky;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.show-img {
+  max-width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.show-img img {
+  width: 100%;
+  height: auto;
+}
+
+.article h3 {
+  font-size: 40px;
+}
+
+.article form textarea,
+.article form input {
+  width: 20vw;
+  height: 35px;
+  padding: 6px 12px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.article form textarea {
+  height: auto;
+}
+
+.article form button {
+  height: 35px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+.article .comments {
+  margin: 40px 0;
+}
+
+.article .comments .comment-item {
+  display: block;
+}
+
+.article .comments .comment-item .username {
+  text-transform: capitalize;
+  padding: 0 15px;
+}
+
+.article .caption {
+  display: flex;
+  width: 50vw;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.article .caption span {
+  display: block;
+  width: 50%;
+  font-size: 20px;
+}
