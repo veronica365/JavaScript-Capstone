@@ -39,9 +39,5 @@
   "bugs": {
     "url": "https://github.com/veronica365/JavaScript-Capstone/issues"
   },
-  "homepage": "https://github.com/veronica365/JavaScript-Capstone#readme",
-  "jest": {
-    "verbose": true,
-    "testEnvironment": "jsdom"
-  }
+  "homepage": "https://github.com/veronica365/JavaScript-Capstone#readme"
 }
