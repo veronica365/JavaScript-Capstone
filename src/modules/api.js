@@ -1,5 +1,4 @@
 import renderTvCards from './renderShows.js';
-import commentPop from './commentpopup.js';
 
 const render = async () => {
   const tvShowList = async () => {
@@ -16,13 +15,6 @@ const render = async () => {
 
   displyArray.forEach((tvShow) => {
     renderTvCards(tvShow);
-    const popUp = document.getElementById(`${tvShow.id}`);
-    popUp.addEventListener('click', () => {
-      const modal = document.querySelector('#modal');
-      modal.innerHTML = commentPop(tvShow);
-      const dialog = document.querySelector('.comment-modal');
-      dialog.showModal();
-    });
   });
 };
 
