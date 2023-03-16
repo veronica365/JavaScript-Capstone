@@ -51,6 +51,10 @@
 
 -[Live Demo Link](https://veronica365.github.io/JavaScript-Capstone/dist/)
 
+## 🚀 Project documentation <a name="documentation"></a>
+
+-[Project walkthrough](https://drive.google.com/file/d/1V4CYBVm2SqZj6s-uG3-Wpk8VSQVmSgO5/view?usp=share_link)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
