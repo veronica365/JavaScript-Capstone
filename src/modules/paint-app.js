@@ -2,7 +2,7 @@ const addHeader = () => `
         <nav>
             <div class="logo">TV Shows</div>
             <ul>
-                <li>Home</li>
+                <li class = "count">Home</li>
                 <li>Discover</li>
                 <li>Trending</li>
             </ul>

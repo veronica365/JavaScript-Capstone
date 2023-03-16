@@ -3,6 +3,7 @@ import { addLike, updatingLike } from './addLike.js';
 import getLike from './getUpdateAPI.js';
 import { getComments, postComment } from './commentAPI.js';
 import renderUserComment from './comments.js';
+import countingFunction from './itemCount.js';
 
 const renderTvCards = async (data) => {
   const like = await getLike();
@@ -35,6 +36,7 @@ const renderTvCards = async (data) => {
       `;
 
   tvContainer.append(scoreDetails);
+  countingFunction();
 
   const likebtn = document.getElementById(`${data.name}`);
 
